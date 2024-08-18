@@ -27,7 +27,7 @@ function App() {
     if(updatedTodos === ''){
       setTodos([]);
     }else{
-    setTodos([updatedTodos]);
+    setTodos(updatedTodos);
     }
   }
   const clearDone = () => {
